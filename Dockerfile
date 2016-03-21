@@ -10,7 +10,7 @@
 # -----------------------------------------------------------------------------
 
 # Base system is the LTS version of Ubuntu.
-FROM   ubuntu:14.04
+FROM   debian:jessie
 
 # Set the Teamspeak version to download
 ENV    tsv=3.0.11.4
